@@ -1,0 +1,44 @@
+body {
+  background-color: #7aB6FF;
+}
+
+div {
+  margin: 20px;
+  border: 1px solid black;
+}
+
+div p {
+  margin: 5px;
+}
+
+#wrap {
+  margin: 0px;
+  display: inline-block;
+  border: 1px solid red;
+}
+
+#header {
+  
+}
+
+#leftNav {
+  float: left;
+  width: 200px;
+  height: 500px;
+  margin-top: 0px;
+}
+
+#viewNav {
+  margin-top: -20px;
+  width: 700px;
+  height: 500px;
+  float: right;
+  border: none;
+  overflow: auto;
+}
+
+div.titleHeader {
+  margin: 0px;
+  color: #7F3F73;
+  background-color: #dfecf5;
+}
