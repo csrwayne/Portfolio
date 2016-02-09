@@ -18,7 +18,7 @@
         <hr>
         
         <div id="leftNav">
-          <p v-for="nav in navs" v-on:click="changeNav($index)"> {{ nav.title }} </p>
+          <p class="clickable" v-for="nav in navs" v-on:click="changeNav($index)"> {{ nav.title }} </p>
         </div>
         
         <div id="viewNav">

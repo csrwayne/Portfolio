@@ -52,6 +52,10 @@ div p {
   border: 1px solid #7e7e7e;
 }
 
+.clickable:hover {
+  cursor: pointer;
+}
+
 #viewNav {
   margin-top: -20px;
   margin-right: 0px;
