@@ -1,44 +1,78 @@
 body {
-  background-color: #7aB6FF;
+  background-color: #7AB6FF;
+}
+
+p {
+  color: white;
+  font-size: 15px;
+  font-family: "Roboto";
+}
+
+#header p {
+  font-size: 30px;
+  font-family: "Lobster";
+}
+
+hr {
+  margin-bottom: 20px;
+  border-color: #7e7e7e;
 }
 
 div {
   margin: 20px;
-  border: 1px solid black;
 }
 
 div p {
   margin: 5px;
 }
 
-#wrap {
+#container {
   margin: 0px;
-  display: inline-block;
-  border: 1px solid red;
+}
+
+#wrap {
+  margin: 0px auto;
+  display: table;
+  border: 1px solid #7e7e7e;
 }
 
 #header {
-  
+  margin: 5px auto;
+  display: table;
+  color: white;
 }
 
 #leftNav {
   float: left;
-  width: 200px;
-  height: 500px;
+  width: 20%;
+  max-width: 124px;
+  height: 439px;
   margin-top: 0px;
+  margin-right: -5px;
+  border: 1px solid #7e7e7e;
 }
 
 #viewNav {
   margin-top: -20px;
-  width: 700px;
+  margin-right: 0px;
+  width: 75%;
+  max-width: 650px;
   height: 500px;
   float: right;
   border: none;
   overflow: auto;
 }
 
+#singleBox {
+  border: 1px solid #7e7e7e;
+  border-top: 0px;
+}
+
 div.titleHeader {
   margin: 0px;
-  color: #7F3F73;
-  background-color: #dfecf5;
+  color: white;
+  background-color: #304866;
+  border: 1px solid #7e7e7e;
+  border-left: 0px;
+  border-right: 0px;
 }
