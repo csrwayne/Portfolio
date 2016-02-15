@@ -3,23 +3,14 @@ body {
 }
 
 p {
-  color: white;
   font-size: 15px;
+  font-weight: 300;
   font-family: "Roboto";
-}
-
-#header p {
-  font-size: 30px;
-  font-family: "Lobster";
 }
 
 hr {
   margin-bottom: 20px;
   border-color: #7e7e7e;
-}
-
-div {
-  margin: 20px;
 }
 
 div p {
@@ -33,13 +24,19 @@ div p {
 #wrap {
   margin: 0px auto;
   display: table;
-  border: 1px solid #7e7e7e;
 }
 
 #header {
-  margin: 5px auto;
-  display: table;
+  text-align: center;
   color: white;
+  width: 100%;
+  background-color: #304866;
+  font-size: 30px;
+  font-family: "Lobster";
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #7e7e7e;
 }
 
 #leftNav {
@@ -50,14 +47,33 @@ div p {
   margin-top: 0px;
   margin-right: -5px;
   border: 1px solid #7e7e7e;
+  background-color: #ffffff;
+}
+
+a.srcLinks {
+  color: #304866;
+  font-size: 14px;
+  padding-left: 5px;
+  text-decoration: underline;
+
+}
+
+a.srcLinks:hover {
+  color: #7AB6FF;
+  text-decoration: underline;
+}
+
+.clickable {
+  color: #304866;
 }
 
 .clickable:hover {
+  color: #7AB6FF;
   cursor: pointer;
+  text-decoration: underline;
 }
 
 #viewNav {
-  margin-top: -20px;
   margin-right: 0px;
   width: 75%;
   max-width: 650px;
@@ -68,8 +84,14 @@ div p {
 }
 
 #singleBox {
+  background-color: #ffffff;
   border: 1px solid #7e7e7e;
   border-top: 0px;
+  margin-top: 20px;
+}
+  
+#singleBox:first-of-type {
+  margin-top: 0px;
 }
 
 div.titleHeader {
@@ -79,4 +101,8 @@ div.titleHeader {
   border: 1px solid #7e7e7e;
   border-left: 0px;
   border-right: 0px;
+}
+
+div.titleHeader p{
+  font-weight: 400;
 }

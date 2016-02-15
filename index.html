@@ -1,9 +1,9 @@
 <html>
   <head>
-    <title> </title>
+    <title>Wayne Anam</title>
     <script type="text/javascript" src="vue.js"> </script>
     <link rel="stylesheet" type="text/css" href="main.css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <meta charset="UTF-8">
   </head>
@@ -12,12 +12,13 @@
     <div id="container">
       <div id="wrap">
         <div id="header">
-          <p> {{ name }}<p>
+          {{ name }}
         </div>
         
-        <hr>
-        
         <div id="leftNav">
+          <div class="titleHeader">
+            <p>Links</p>
+          </div>
           <p class="clickable" v-for="nav in navs" v-on:click="changeNav($index)"> {{ nav.title }} </p>
         </div>
         
@@ -27,6 +28,7 @@
               <p> {{ temp.title }} </p>
             </div>
             <p> {{ temp.description }} </p>
+            <a class="srcLinks" v-bind:href="temp.source">{{ temp.sourceName }}</a>
           </div>
         </div>
       </div>
