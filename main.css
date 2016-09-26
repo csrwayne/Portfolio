@@ -1,5 +1,6 @@
 body {
   background-color: #7AB6FF;
+  padding-bottom: 210px;
 }
 
 p {
@@ -80,7 +81,6 @@ a.srcLinks:hover {
   height: 500px;
   float: right;
   border: none;
-  overflow: auto;
 }
 
 #singleBox {
