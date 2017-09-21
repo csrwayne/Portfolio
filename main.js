@@ -16,6 +16,7 @@ var arg = new Vue({
     
     projects: [
       { title: 'Portfolio', description: 'This site will hold all of the projects that I have completed/am already working on. It was created with a javascript framework called Vue.js and is constantly updated.', source:'', sourceName:'Portfolio' },
+	  { title: 'ChainReaction - Battle of Bots #7', description: 'ChainReaction was one of the more challenging games due to how quickly the state of the game could change. The game was very volatile and against a skilled opponent one wrong move would mean that you instantly lost the game.', source:'https://github.com/wayneanam/ChainReaction', sourceName:'ChainReaction' },
       { title: 'Draughts - Battle of Bots #6', description: 'Draughts is a two player board game similar to checkers. This was my first encounter with the python programming language, in terms of learning and using it on an actual project.', source:'https://github.com/wayneanam/Draughts', sourceName:'Draughts' },
       { title: 'Reversi - Battle of Bots #5', description: 'This is the first coding competition that I had ever entered. Before this competition I had never played or heard of this game but it was fun figuring out a strategy for it.', source:'https://github.com/wayneanam/Reversi', sourceName:'Reversi' },
       { title: 'Choice', description: 'This is a template site that I created while learning Vue.js. The typical way of making filled choice boards is by using some sort of paint or power-point program. I decided to create a choice box generator to simplify this process.', source:'https://wayneanam.github.io/Choice/', sourceName:'Choice' },
@@ -24,10 +25,10 @@ var arg = new Vue({
     ],
     
     skills: [
-      { title: 'Programming Languages', description:'I am proficient in the following languages C++, JavaScript, Assembly, HTML and CSS and the JavaScript framework Vue.js. I am adequate in the use of Python and GDScript.' },
+      { title: 'Programming Languages', description:'I am proficient in the following languages C++, Java, JavaScript, Assembly, HTML and CSS and the JavaScript framework Vue.js. I am adequate in the use of Python.' },
       { title: 'Computer Literacy', description:'I started using computers at a young age and developed an interest in working with different devices running various operating systems and programs. Whenever my friends or family has computer concerns or just need advice they usually call me.' },
       { title: 'Critical Thinking', description:'The ability to quickly analyze a problem and figure out a solution is very valuable. I try to increase my critical thinking skills by asking questions, putting myself in other people\'s shoes, joining coding competitions, solving problems on Project Euler and HackerRank.'},
-      { title: 'Willingness to Learn', description:'I taught myself how to program in multiple languages outside of class.' },
+      { title: 'Willingness to Learn', description:'During my internship at Edward Jones I taught myself how to program in Java and familiarized myself with their development processes and tools. I also learned how to program in other languages outside of class.' },
     ],
     
     about: [
