@@ -3,6 +3,7 @@ var arg = new Vue({
   
   data: {
     name: 'Wayne Anam',
+    activePage: 0,
     
     navs: [
       { title: 'Projects' },
@@ -41,6 +42,8 @@ var arg = new Vue({
   methods: {
     changeNav: function(index) {
       console.log(this.$parent);
+      this.activePage = index;
+      
       if(index == 0) {
         this.temps = this.projects;
       }
